@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/42a182743f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <title>Responsive design</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <%-include('partials/navbar.ejs')%>
+
+    <!-- header -->
+    <header>
+      <div class="header-content">
+        <h1>You write, We read</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          reiciendis
+        </p>
+        <a href="#">
+          <span>Create New Post</span>
+        </a>
+      </div>
+    </header>
+    <!-- content -->
+    <section class="container-flex">
+      <!-- main -->
+      <main>
+        <article class="post-content">
+          <h1 class="post-title">Why MERN Stack is on Hot Cake?</h1>
+          <img src="/public/images/post2.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">Become a Web Developer</h1>
+          <img src="/public/images/post3.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">How to Take care of Cat</h1>
+          <img src="/public/images/post7.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">Ways to become a Web Developer</h1>
+          <img src="/public/images/post5.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+      </main>
+      <!-- aside -->
+      <aside class="sidebar">
+        <div class="about-me">
+          <h2>About The Author</h2>
+          <img class="avatar" src="./images/pic2.jpg" alt="" />
+
+          <h2 class="about-name">Emmanuel</h2>
+          <small>FullStack Web Developer</small>
+          <p class="about-me-bio">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+
+        <div class="sidebar-content">
+          <h1 class="post-title">The Future of Tech</h1>
+          <img src="/public/images/post1.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Start Here</h1>
+          <img src="/public/images/post4.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Think Before you start</h1>
+          <img src="/public/images/post6.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Learn HTML</h1>
+          <img src="/public/images/post2.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h2 class="widget-title">sidebar title</h2>
+          <img src="/public/images/post8.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+      </aside>
+    </section>
+    <!-- footer -->
+    <%-include('partials/foot.ejs')%>
+  </body>
+</html>
