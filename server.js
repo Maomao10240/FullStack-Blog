@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 });
 //routes
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index.ejs");
 });
 app.use("/api/users", userRoute);
 
